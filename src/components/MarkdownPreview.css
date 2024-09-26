@@ -1,0 +1,62 @@
+/* MarkdownPreview.css */
+
+.markdown-preview h1 {
+    font-size: 2rem;
+    /* Ajusta el tamaño según tus necesidades */
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.markdown-preview h2 {
+    font-size: 1.5rem;
+    /* Tamaño para el subtítulo */
+    font-weight: bold;
+    margin: 0.75rem 0;
+}
+
+.markdown-preview p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.markdown-preview a {
+    color: #3490dc;
+    /* Color para los enlaces */
+    text-decoration: underline;
+}
+
+.markdown-preview strong {
+    font-weight: bold;
+}
+
+.markdown-preview em {
+    font-style: italic;
+}
+
+.markdown-preview blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #6c757d;
+}
+
+.markdown-preview ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.markdown-preview code {
+    /* background-color: #f8f9fa; */
+    /* Fondo para código en línea */
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+
+}
+
+.markdown-preview pre {
+    background-color: #3b3b3b;
+    /* Fondo para bloques de código */
+    padding: 1rem;
+    border-radius: 0.2rem;
+    overflow: auto;
+}
